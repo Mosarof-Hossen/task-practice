@@ -67,3 +67,23 @@ console.log(inputArray);
 
 copyArray[0]=99;
 console.log(copyArray)
+
+
+// Task 6
+// Given an array of student objects, print each student’s name and marks.
+// [
+//   { name: "John", marks: 85 },
+//   { name: "Alice", marks: 90 }
+// ]
+// Expected ooutput:
+// John scored 85
+// Alice scored 90
+
+let studentMarks=[
+   { name: "John", marks: 85 },
+   { name: "Alice", marks: 90 }
+];
+for(let i=0;i<studentMarks.length;i++){
+    console.log(studentMarks[i].name+ " scored "+studentMarks[i].marks)
+}
+
